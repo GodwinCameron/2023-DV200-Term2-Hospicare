@@ -171,8 +171,9 @@ Future functionality that I would hope to see come to this project.
 
 
 ![image4](images/4.png)
-![image5](images/5.png)
-![image6](images/6.png)
+![image7](images/3.JPG)
+![image5](images/5.JPG)
+![image6](images/6.JPG)
 <br>
 
 
