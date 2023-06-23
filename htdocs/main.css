@@ -1,0 +1,748 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+a{
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.caps{
+    text-transform: capitalize;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #eaf0fc;
+    /* background-image: linear-gradient(white, rgb(124, 124, 124)); */
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+    height: 100vh;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-image: linear-gradient(#025193,#63B5E4);
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.nav-bar p:hover{
+    cursor: pointer;
+    font-size: 14px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 89vw;
+    height: 95vh;
+}
+.heading-section{
+    gap: 5vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 8vh;
+}
+.title-section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    width: 50vw;
+}
+.toolbar-section{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(105, 105, 105);
+    display: flex;
+    width: 30vw;
+    height: 7vh;
+    padding-top: 2vh;
+}
+.tool-bar-actions{
+    display: flex;
+    justify-content: flex-end;
+    width: 20vw;
+}
+.toolbar-button{
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    filter: invert(70%);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border-radius: 7px;
+}
+.toolbar-button:hover{
+    background-color: rgba(0, 0, 0, 0.12);
+    filter: invert(40%);
+}
+.toolbar-logout{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_logOut-ltr.svg/1200px-OOjs_UI_icon_logOut-ltr.svg.png");
+}
+.toolbar-settings{
+    background-image: url("https://img.uxwing.com/wp-content/themes/uxwing/download/user-interface/settings-icon.png");
+}
+.toolbar-notifications{
+    background-image: url("https://cdn.onlinewebfonts.com/svg/img_509166.png");
+    background-size: 45%;
+}
+.toolbar-calendar{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/018/931/179/original/black-calendar-icon-png.png");
+}
+
+.dash-items{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 80vh;
+    margin-left: 1.2vw;
+    gap: 2.4vh;
+}
+.dash-row{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2vw;
+}
+.profile-banner{
+    flex-direction: row;
+    width: 35vw;
+    height: 28vh;
+}
+.dash-item{
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat";
+    font-size: 15px;
+}
+.profile-picture{
+    background-image: url("https://netstorage-legit.akamaized.net/images/f9339604787f17ef.jpg");
+    background-size: 120%;
+    background-position: -10px -8px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    min-height: 50px;
+    min-width: 50px;
+    width: 13vw;
+    height: 26vh;
+    box-shadow: 1px 7px 15px 1px rgba(0,0,0,0.52);
+}
+.edit-button{
+    background-color: #0468e2;
+    background-image: url("https://static.thenounproject.com/png/3905046-200.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 6px 6px;
+    filter: invert(100%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: 80%;
+    box-shadow: inset 2px 3px 7px 1px rgba(0, 0, 0, 0.582);
+}
+.profile-banner-content{
+    height: 100%;
+    width: 60%;
+    padding-left: 2vw;
+}
+.profile-banner-dataline{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+.label{
+    color: rgb(167, 167, 167);
+}
+.profile-calendar{
+    height: 28vh;
+    width: 14vw;
+}
+.calendar{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://media.gcflearnfree.org/content/560be4f6557fa909dc9cf5a1_09_30_2015/googletips_calendar_mini.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.profile-events{
+    width: 28vw;
+    height: 28vh;
+    flex-direction: column;
+}
+.events-title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+}
+.event-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: #0468e2;
+    filter: invert(100%);
+    height: 3vh;
+    width: 7vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: inset 2px 3px 7px 1px rgba(0,0,0,0.52);
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    filter: invert(12%);
+}
+.doctor-appoints{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.doctor-appoint-item{
+    flex-direction: row;
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    padding-left: 15px;
+    gap: 10px;
+    background-color: #f3f7ff;
+    align-items: center;
+    font-size: 12px;
+}
+.new-patient{
+    flex-direction: column;
+    height: 85vh;
+    width: 20vw;
+}
+.new-picture{
+    height: 10vh;
+    width: 4vw;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3135/3135715.png");
+}
+
+.nav-picture{
+    box-shadow: none;
+    height: 10vh;
+    width: 5vw;
+    margin-top: 3vh;
+}
+.current-user{
+    margin-top: 2vh;
+}
+.nav-search-bar{
+    background-color: rgba(255,255,255,0.15);
+    outline: 0;
+    border: 0;
+    border-radius: 22px;
+    height: 30px;
+    color: white;
+    padding-left: 9px;
+}
+.nav-search-bar:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+.nav-search-bar::placeholder{
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.nav-bar-links{
+    width:100%;
+    height: 50vh;
+}
+.nav-bar-link{
+    margin-top: 3vh;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+.nav-bar-link:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+.left-arrow{
+    margin-right: -1.8vw;
+    color: #E2EBFC;
+}
+.left-arrow2{
+    margin-right: -2vw;
+    color: #E2EBFC;
+}
+.icon{
+    width: 20px;
+    margin-bottom: -3px;
+    filter: invert(100%);
+}
+.profile-actions{
+    flex-direction: column;
+    width: 35vw;
+    height: 48vh;
+    align-items: flex-start;
+}
+.dash-align{
+    width: 100%;
+    flex-direction: row;
+    align-self: flex-start;
+    height: 5vh;
+    margin-bottom: 1vh;
+}
+.profile-actions-content{
+    width: 100%;
+    height: 65%;
+    margin-bottom: 30px;
+}
+.profile-actions-buttons{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;   
+    gap: 2%;
+}
+
+.action-button{
+    display: flex;
+    height: 8vh;
+    width: 12vw;
+    border-radius: 12px;
+}
+.action-button:hover{
+    background-color: rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+.action-button-icon{
+    background-color: #9A491E;
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 70px;
+    width: 70px;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.profile-actions-appointment{
+    background-image: url("https://www.vhv.rs/file/max/2/26550_appointment-icon-png.png");
+    background-size: 60%;
+    filter: invert(100%);
+}
+.profile-actions-back{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/13/13964.png");
+    background-size: 60%;
+    filter: invert(100%);
+}
+.profile-actions-update{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3597/3597088.png");
+    background-size: 60%;
+    background-position: 60% 45%;
+    filter: invert(100%);
+}
+.profile-actions-delete{
+    background-image: url("https://www.svgrepo.com/show/333630/x-circle.svg");
+    background-size: 80%;
+    filter: invert(100%);
+    background-color: #2aafa4;
+}
+.action-button-description{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    padding-top: 9%;
+    padding-left: 12px;
+    width: 60%;
+}
+
+.connected-data{
+    height: 48vh;
+    width: 45.2vw;
+}
+
+
+
+
+
+
+.form-area{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    padding-top: 4vh;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1vh;
+}
+.form-input{
+    outline: 0;
+    border: 0;
+    background-color: #eaf0fc;
+    border-radius: 12px;
+    width: 90%;
+    height: 3.5vh;
+    padding-left: 1.5vw;
+}
+.form-input:focus{
+    background-color: #dbe5fa;
+    box-shadow: 1px 3px 10px 0.2px rgba(0,0,0,0.1);
+}
+.left-spaced{
+    margin-left: 2vw;
+}
+.left-spaced2{
+    margin-left: 4vw;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.date-input{
+    background-color: #eaf0fc;
+    border: 0;
+    border-radius: 6px;
+    outline: 0;
+    width: 18px;
+    height: 25px;
+    margin-right: 0.2vw;
+}
+
+.add-button{
+    cursor: pointer;
+    border: 0;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0468e2;
+    filter: invert(100%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: inset 2px 3px 7px 1px rgba(0,0,0,0.52);
+}
+.add-button:hover{
+    filter: invert(0%);
+    color: white;
+}
+.patient-list{
+    display: flex;
+    height: 85vh;
+    width: 30vw;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 1.5vw;
+}
+.patient-list-area{
+    width: 99%;
+    min-height: 80vh;
+    background-color: #f3f7ff;
+    padding-left: 10px; 
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.list-scroll{
+    overflow-y: scroll;
+    height: 95%;
+}
+.list-titles{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    max-width: 95%;
+    margin-bottom: 10px;
+}
+.list-spacer{
+    margin-right: 12%;
+}
+.list-spacer1{
+    margin-right: 14%;
+}
+
+.patient-list-item{
+    display: flex;
+    margin-top: 2px;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    font-size: 14px;
+}
+.patient-list-item2{
+    background-color: #E2EBFC;
+    display: flex;
+    margin-top: 2px;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    font-size: 14px;
+}
+.item-entry{
+    width: 15%;
+}
+.item-entry2{
+    width: 24%;
+}
+.item-entry3{
+    width: 25%;
+}
+.patient-list-item:hover{
+    background-color: #e7e7e7;
+}
+.patient-list-item2:hover{
+    background-color: #e7e7e7;
+}
+.patient-info{
+    min-height: 450px;
+    height: 55vh;
+    width: 30vw;
+}
+.patient-info-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 2vh;
+}
+.patient-header{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    width: 100%;
+    min-height: 15vh;
+    height: 25%;
+}
+.patient-picture{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-image: url('https://www.freeiconspng.com/thumbs/profile-icon-png/profile-icon-9.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14vh;
+    width: 7vw;
+    border-radius: 10px;
+    background-color: #eaf0fc;
+    border: 3px solid #E2EBFC;
+    overflow: hidden;
+}
+img{
+    background-position: center;
+}
+.patient-titles{
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+}
+.patient-more-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.login{
+    align-items: center;
+    justify-content: center;
+}
+.login-block{
+    font-family: 'Montserrat';
+    height: 40vh;
+    gap: 4vh;
+    padding-top: 3vh;
+    width: 25vw;
+    border-radius: 20px;
+    background-image: linear-gradient(#1b80c4,#025193);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 32px 1px rgba(0,0,0,0.75);
+}
+.logo{
+    background-image: url('./Hospicare\ logo.png');
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 8vh;
+    width: 12vw;
+    margin-bottom: -20px;
+}
+.login-label{
+    font-weight: 100;
+    color: rgb(238, 238, 238);
+    text-shadow: 2px 3px 7px rgba(255,255,255,0.6);
+}
+.login-field{
+    margin-top: 10px;
+    height: 3vh;
+    width: 20vw;
+    border: 0;
+    outline: 0;
+    box-shadow:  2px 3px 12px 2px rgba(255, 255, 255, 0.3);
+
+}
+.login-btn{
+    border: solid 2.5px rgba(255, 255, 255, 0.1);
+    background-color: #1d88df;
+    height: 4vh;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow:  2px 3px 12px 2px rgba(255, 255, 255, 0.3);
+    color: rgb(238, 238, 238);
+}
+.login-btn:hover{
+    cursor: pointer;
+    box-shadow: inset 2px 3px 12px 2px rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+.error-msg{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.35);
+    height: 4vh;
+    width: 80%;
+    padding-left: 2vw;
+    margin-bottom: 2vh;
+    border: 1px solid red;
+    color: white;
+}
+.appointment-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 45vh;
+    width: 12vw;
+}
+.existing-appointment-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 45vh;
+    width: 65vw;
+}
+.existing-appoinments-area{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    gap: 1.5vh;
+}
+.appointment-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 6px;
+    width: 90%;
+    background-color: rgba(255, 179, 37, 0.253);
+    min-height: 8vh;
+    gap: 2vw;
+    padding-left: 1.5vw;
+}
+.appointment-item-sector{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    width: 20%;
+    gap: 5px;
+    border-right: 2px solid pink;
+}
+.section4{
+    border: 0;
+}
+.appointment-selector{
+    background-color:#63B5E4;
+    border: 0;
+    outline: 0;
+    font-family: 'Montserrat';
+    margin-top: 1vh;
+    width: 10vw;
+    height: 2vh;
+    border-radius: 6px;
+    box-shadow: 1px 3px 9px 1px rgba(0,0,0,0.52);
+    color: white;
+}
+.selector-option{
+    background-color:#8dc9ec;
+    border: 0;
+    outline: 0;
+}
+.date-pick{
+    padding-left: 10px;
+}
+.selector-button{
+    background-color:#63B5E4;
+    border: 0;
+    outline: 0;
+    font-family: 'Montserrat';
+    margin-top: 2vh;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 6px;
+    box-shadow: 1px 3px 9px 1px rgba(0,0,0,0.52);
+    color: white;
+}
+.selector-button:hover{
+    box-shadow: inset 1px 3px 9px 1px rgba(255,255,255,0.52);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.selector-button:active{
+    background-color:#84cffa;
+    cursor: default;
+    transform: scale(1.02);
+}
+.doctor-appointments{
+    margin-top: 2vh;
+    width: 80vw;
+    height: 30vh;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.doc-select{
+    margin-left: 5vw;
+    background-color:#63B5E4;
+    outline: 0;
+    border: 0;
+    width: 7vw;
+    color: white;
+    padding-left: 5px;
+    font-family: 'Montserrat';
+    border-radius: 6px;
+    height: 2.5vh;
+}
+.go-btn{
+    margin-left: 1vw;
+}
+.connected-info{
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+}
