@@ -14,7 +14,7 @@
 <p align="center">
 
   <a href="https://github.com/GodwinCameron/2023-DV200-Term2-Hospicare">
-    <img src="src/htdocs/Hospicare logo.png" width="200px">
+    <img src="htdocs/Hospicare logo.png" width="200px">
   </a>
 
 <h3 align="center">Hospicare</h3>
@@ -170,10 +170,10 @@ Future functionality that I would hope to see come to this project.
 ### Mockups
 
 
-![image4](images/4.png)
+![image4](images/4.JPG)
 ![image7](images/3.JPG)
 ![image5](images/5.JPG)
-![image6](images/6.JPG)
+![image6](images/6.png)
 <br>
 
 
