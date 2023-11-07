@@ -2,7 +2,7 @@
 
 <br />
 
-![GitHub repo size](https://img.shields.io/repo-size/github/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
+![GitHub repo size](https://img.shields.io/github/repo-size/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
 ![GitHub watchers](https://img.shields.io/github/watchers/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
 ![GitHub language count](https://img.shields.io/github/languages/count/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
