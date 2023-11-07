@@ -2,10 +2,10 @@
 
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Tsebo200/Dream-Team?color=lightblue)
-![GitHub watchers](https://img.shields.io/github/watchers/Tsebo200/Dream-Team?color=lightblue)
-![GitHub language count](https://img.shields.io/github/languages/count/Tsebo200/Dream-Team?color=lightblue)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Tsebo200/Dream-Team?color=lightblue)
+![GitHub repo size](https://img.shields.io/github/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
+![GitHub watchers](https://img.shields.io/github/watchers/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
+![GitHub language count](https://img.shields.io/github/languages/count/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/GodwinCameron/2023-DV200-Term2-Hospicare?color=limegreen)
 
 <h5 align="center" style="padding:0;margin:0;">Cameron Godwin</h5>
 <h5 align="center" style="padding:0;margin:0;">200109</h5>
@@ -180,8 +180,9 @@ Future functionality that I would hope to see come to this project.
 
 ### Video Demonstration
 
+[![Watch the video](https://static.vecteezy.com/system/resources/previews/027/245/458/non_2x/multimedia-video-player-frame-template-footage-display-live-video-streaming-broadcasting-illustration-vector.jpg)](https://youtu.be/MXdTzRu9Abw)
 
-[View Demonstration](video.mp4)
+[Video not working? - Download here](video.mp4)
 
 
 
